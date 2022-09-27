@@ -1,6 +1,6 @@
 <?php
 
-class Product
+class User
 {
     public $firstName;
     public $lastName;

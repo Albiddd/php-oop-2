@@ -5,15 +5,15 @@ class Accessory extends Product
 {
     public $brand;
     public $description;
-    public $material;
+    public $type;
     public $color;
 
-    public function __construct($param, string $brand, string $description, string $material, string $color)
+    public function __construct(string $prodName, int $prodId, float $prodPrice, string $prodCat, string $brand, string $description, string $type, string $color)
     {
-        parent::__construct($param);
+        parent::__construct($prodName, $prodId, $prodPrice, $prodCat);
         $this->brand = $brand;
         $this->description = $description;
-        $this->material = $material;
+        $this->type = $type;
         $this->color = $color;
     }
 }
