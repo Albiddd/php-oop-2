@@ -8,7 +8,7 @@ class Product
     public $prodCat;
 
 
-    function __construct(string $prodName, int $prodId, int $prodPrice, string $prodCat)
+    function __construct(string $prodName, int $prodId, float $prodPrice, string $prodCat)
 
     {
         $this->prodName = $prodName;

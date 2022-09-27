@@ -2,13 +2,13 @@
 
 include __DIR__ . "/db.php";
 
-var_dump($chart);
+
 $sum = 0;
 foreach($chart as $key=>$value){
     if(isset($value->prodPrice))
        $sum += $value->prodPrice;
 }
-echo $sum;
+
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +21,21 @@ echo $sum;
 </head>
 <body>
     
+    <h2>Il tuo carrello:</h2>
+    <ul>
+        <?php foreach($chart as $value){
+        ?>
+            <li> 
+                <h4> <?= $value->prodName ?> </h4>
+                <span> <?= $value->brand ?> </span>
+                <strong> <?= $value->prodPrice?>€</strong>  
+            </li>
+        <?php
+        }
+        ?>
+    </ul>
 
+    <h4>Spesa totale: <?= $sum ?>€</h4>
 
 </body>
 </html>

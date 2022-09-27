@@ -19,7 +19,7 @@ $users = [
 $products = [
    
     new Food("Cibo per gatti al vitello", 100, 35.50, "Cibo per animali", "Monge", "Crocchette di vitello", 20),
-    new Food("Cibo per cani al pollo", 151, 15.10, "Cibo per animali","Trainer", "Crocchette di pollo", 15),
+    new Food("Cibo per cani al pollo", 151, 15.99, "Cibo per animali","Trainer", "Crocchette di pollo", 15),
     new Food("Cibo per cani al manzo", 176, 24.99, "Cibo per animali","Royal Canin", "Crocchette di manzo", 25),
     
     new Toy("Pallina di gomma per cani", 459, 5.90, "Giochi per animali", "Pedigree", "Pallina","gomma"),
@@ -33,7 +33,7 @@ $products = [
 ];
 
 $chart = [
-    new Food("Cibo per cani al pollo", 151, 15.10, "Cibo per animali","Trainer", "Crocchette di pollo", 15),
+    new Food("Cibo per cani al pollo", 151, 15.99, "Cibo per animali","Trainer", "Crocchette di pollo", 15),
     new Toy("Gioco masticabile per cani", 482, 10.20, "Giochi per animali", "Pedrigree", "Nodo da masticare", "corda"),
     new Accessory("Collare per cani", 897, 12.50, "Accessori per animali", "Perro's life", "Collare per cani", "pelle", "nero"),
 ];
@@ -53,3 +53,4 @@ $chart = [
 
 // var_dump($users);
 // var_dump($products);
+// var_dump($chart);
