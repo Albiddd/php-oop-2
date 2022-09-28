@@ -18,9 +18,9 @@ $users = [
 
 $products = [
    
-    new Food("Cibo per gatti al vitello", 100, 35.50, "Cibo per animali", "Monge", "Crocchette di vitello", 20),
-    new Food("Cibo per cani al pollo", 151, 15.99, "Cibo per animali","Trainer", "Crocchette di pollo", 15),
-    new Food("Cibo per cani al manzo", 176, 24.99, "Cibo per animali","Royal Canin", "Crocchette di manzo", 25),
+    new Food("Cibo per gatti al vitello", 100, 35.50, "Cibo per animali", "Monge", "Crocchette di vitello", 20, 2023),
+    new Food("Cibo per cani al pollo", 151, 15.99, "Cibo per animali","Trainer", "Crocchette di pollo", 15, 2024),
+    new Food("Cibo per cani al manzo", 176, 24.99, "Cibo per animali","Royal Canin", "Crocchette di manzo", 25, 2022),
     
     new Toy("Pallina di gomma per cani", 459, 5.90, "Giochi per animali", "Pedigree", "Pallina","gomma"),
     new Toy("Topolino per gatti", 410, 8.50, "Giochi per animali", "Cat world", "Topolino", "gomma"),
@@ -32,22 +32,12 @@ $products = [
 
 ];
 
-$chart = [
-    new Food("Cibo per cani al pollo", 151, 15.99, "Cibo per animali","Trainer", "Crocchette di pollo", 15),
+$cart = [
+    new Food("Cibo per cani al pollo", 151, 15.99, "Cibo per animali","Trainer", "Crocchette di pollo", 15, 2024),
+    new Food("Cibo per cani al manzo", 176, 24.99, "Cibo per animali","Royal Canin", "Crocchette di manzo", 25, 2022),
     new Toy("Gioco masticabile per cani", 482, 10.20, "Giochi per animali", "Pedrigree", "Nodo da masticare", "corda"),
     new Accessory("Collare per cani", 897, 12.50, "Accessori per animali", "Perro's life", "Collare per cani", "pelle", "nero"),
 ];
-
-// function getChart() 
-// {
-//     echo array_sum($chart)
-//     // foreach($chart as $value)
-//     // {
-//     //     echo $value->prodPrice
-//     // }
-
-//     // if()
-// }
 
 
 
